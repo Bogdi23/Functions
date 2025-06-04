@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 int Sum(int a, int b);
@@ -11,7 +11,7 @@ void main()
 	setlocale(LC_ALL, "");
 	/*cout << "Hello Functions" << endl;*/
 	int a, b;
-	cout << "Ââåäèòå äâà ÷èñëà: "; cin >> a >> b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð°: "; cin >> a >> b;
 	int c = Sum(a, b);
 	cout << a << " + " << b << " = " << c << endl;
 	cout << a << " - " << b << " = " << Difference(a, b) << endl;
